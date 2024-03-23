@@ -8,6 +8,6 @@ tipo: String
 
 })
 
-const $TM_FILENAME_BASE= mongoose.model('produto',Schema)
+const produto= mongoose.model('produto',Schema)
 
-module.exports = Produto
+module.exports = produto
